@@ -2,6 +2,14 @@
 
 A security-focused Terraform proof of concept demonstrating how to review AWS infrastructure code before deployment.
 
+## Related AWS Infrastructure Project
+
+This security-review project complements my original AWS Terraform proof of concept:
+
+[View AWS Proof of Concept](https://github.com/EvelioMorales/AWS-Proof-of-Concept)
+
+The original project demonstrates Terraform-based AWS infrastructure. This repository focuses on reviewing that type of infrastructure for public exposure, sensitive files, restricted administrative access, configuration validity, and CI security controls.
+
 This project creates the Terraform configuration for:
 
 - An AWS VPC
