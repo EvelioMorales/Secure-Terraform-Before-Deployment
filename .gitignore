@@ -1,0 +1,32 @@
+# Terraform provider and module downloads
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Local variable files
+*.tfvars
+*.tfvars.json
+
+# Keep safe example files
+!*.tfvars.example
+
+# Saved plans
+*.tfplan
+
+# Environment and secret files
+.env
+.env.*
+
+# Crash and override files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc

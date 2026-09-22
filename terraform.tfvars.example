@@ -1,0 +1,8 @@
+# Safe documentation example only.
+# Copy this file to terraform.tfvars for local testing.
+# Replace the example address with your trusted public IPv4 address.
+
+aws_region   = "us-east-1"
+project_name = "secure-terraform-poc"
+vpc_cidr     = "10.20.0.0/16"
+admin_cidr   = "203.0.113.10/32"
